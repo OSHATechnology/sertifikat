@@ -23,4 +23,7 @@ Route::get('/page1', function () {
 Route::get('/page3', function () {
     return view('sertifikat.page3');
 });
+Route::get('/page4', function () {
+    return view('sertifikat.page4');
+});
 // Route::get('/sertifikat', [Controller::class, 'cetak']);

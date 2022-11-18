@@ -3,18 +3,19 @@
 }
 
 .base-container {
-    width: 100%;
-    height: 100%;
-    background-color: #f5f5f5;
-    padding: 20px;
+    width: 842px;
+    height: 595px;
+    background-color: #f9f9f9;
+    padding: 14px;
 }
 
 .main-container {
-    width: 100%;
-    height: 100%;
-    border: 5px solid #000;
-    padding: 50px;
+    width: 813px;
+    height: 566px;
+    border: 4px solid #1F2855;
+    padding: 20px;
     position: relative;
+    box-shadow: 0px 0px 6px 0px #0093ad;
 }
 
 .judul {

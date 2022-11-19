@@ -1,70 +1,63 @@
 @extends('layouts.index')
-@section('title', 'Sertifikat Magenta BUMN Page 1')
+@section('title', 'Sertifikat Magenta BUMN Page 3')
 @section('content')
 
 
-<div class="container">
-    <section class="header-container">
-        <div class="header">
-            <h3 class="title">Daftar Nilai Magang Generasi Bertalenta</h3>
-            <div class="logo-container">
-                <img src="assets/images/magenta1.png" alt="magenta1" class="logo">
-                <img src="assets/images/magenta2.png" alt="magenta2" class="logo">
-                <img src="assets/images/magenta3.png" alt="magenta3" class="logo">
-                <img src="assets/images/magenta4.png" alt="magenta4" class="logo">
-                <img src="assets/images/magenta5.png" alt="magenta5" class="logo">
+    <div class="container">
+        <section class="header-container">
+            <div class="header">
+                <h3 class="header-title w-50">Daftar Nilai Magang Generasi Bertalenta PT Telkom Indonesia (Persero) Tbk</h3>
+                <div class="logo-container">
+                    <img src="assets/images/magenta1.png" alt="magenta1" class="header-logo">
+                    <img src="assets/images/magenta2.png" alt="magenta2" class="header-logo">
+                    <img src="assets/images/magenta3.png" alt="magenta3" class="header-logo">
+                    <img src="assets/images/magenta4.png" alt="magenta4" class="header-logo">
+                    <img src="assets/images/magenta5.png" alt="magenta5" class="header-logo">
+                </div>
             </div>
-        </div>
-        <h3 class="company">PT Telkom Indonesia (Persero) Tbk</h3>
-    </section>
-    <section class="profile">
-        <div class="profile-name">
-            <div class="name">
-                <h5 class="question">Nama Mahasiswa
-                    <h5 class="colon">:</h5>
-                    <h5 class="answername">Bagus Adi Gautama</h5>
-                </h5>
-                <h5 class="question">NIM
-                    <h5 class="colon">:</h5>
-                    <h5 class="answernim">1234567890</h5>
-                </h5>
-            </div>
-            <div class="nim">
-                <h5 class="question">Fakultas/Jurusan
-                    <h5 class="colon">:</h5>
-                    <h5 class="answer">Informatika/S1 Informatika</h5>
-                </h5>
-                <h5 class="question">Perguruan Tinggi
-                    <h5 class="colon">:</h5>
-                    <h5 class="answer">Universitas Telkom</h5>
-                </h5>
-                <h5 class="question">Posisi Magang
-                    <h5 class="colon">:</h5>
-                    <h5 class="answer">UI Designer</h5>
-                </h5>
-            </div>
-        </div>
-        <div class="profile-univ"></div>
-        <div class="d-flex flex-column align-items-left">
-            <table>
-                <tr>
-                    <td>Nama Mahasiswa    : Bagus Adi Gautama</td>
-                    <td>Fakultas/Jurusan  : Informatika/S1 Informatika</td>
-                </tr>
-                <tr>
-                    <td>NIM               : 1234567890</td>
-                    <td>Perguruan Tinggi  : Universitas Telkom</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Posisi Magang     : UI Designer</td>
-                </tr>
-            </table>
-        </div>
-    </section>
-    <section class="content-container">
-        <div class="d-flex flex-column align-items-center">
-            <table>
+        </section>
+        <section class="profile mb-3">
+            <div class="profile-container">
+                <div class="profile-univ">
+                    <div class="d-flex align-items-left">
+                        <div class="w-50">
+                            <table>
+                                <tr>
+                                    <td>Nama Mahasiswa</td>
+                                    <td>&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+                                    <td>Bagus Adi Gautama</td>
+                                </tr>
+                                <tr>
+                                    <td>NIM</td>
+                                    <td>&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+                                    <td>1234567890</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="w-50">
+                            <table>
+                                <tr>
+                                    <td>Fakultas/Jurusan</td>
+                                    <td>&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+                                    <td>Informatika/S1 Informatika</td>
+                                </tr>
+                                <tr>
+                                    <td>Perguruan Tinggi</td>
+                                    <td>&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+                                    <td>Universitas Telkom</td>
+                                </tr>
+                                <tr>
+                                    <td>Posisi Magang</td>
+                                    <td>&nbsp;&nbsp;&nbsp;:&nbsp;</td>
+                                    <td>UI Designer</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="content-container">
+            <table class="w-100 table table-bordered border-dark table-centered">
                 <tr>
                     <th rowspan="2">No</th>
                     <th rowspan="2">Komponen</th>
@@ -118,47 +111,55 @@
                 </tr>
                 <tr>
                     <th colspan="2">Total Nilai Pengembangan (A)</th>
-                    <td>610</td>
+                    <td class="content-summary">610</td>
                     <td></td>
                 </tr>
                 <tr>
                     <th colspan="2">Banyak Komponen (B)</th>
-                    <td>7</td>
+                    <td class="content-summary">7</td>
                     <td></td>
                 </tr>
                 <tr>
                     <th colspan="2">Rata - Rata Nilai (Q=A/B)</th>
-                    <td>87</td>
-                    <td></td>
+                    <td class="content-summary">87</td>
+                    <td class="content-summary">Delapan puluh tujuh</td>
                 </tr>
             </table>
-        </div>
-    </section>
-    <section class="footer-container">
-        <div class="row">
-            <div class="d-flex justify-content-between">
-                <div class="d-flex flex-column align-items-center">
-                    <p>Kriteria Total Nilai Pembimbing Perusahaan</p>
-                    <table>
-                        <tr>
-                            <td>86-100  : Sangat Memuaskan (A)</td>
-                            <td>71-85   : Memuaskan (B)</td>
-                            <td><=70    : Cukup Memuaskan (C)</td>
-                        </tr>
-                    </table>
+        </section>
+        <section class="w-100 mt-3">
+            <div class="row align-items-start">
+                <div class="col">
+                    <div class="d-flex flex-column align-items-start">
+                        <p class="m-0 pb-3">Kriteria Total Nilai Pembimbing Perusahaan</p>
+                        <table>
+                            <tr>
+                                <td>86-100 : Sangat Memuaskan (A)</td>
+                            </tr>
+                            <tr>
+                                <td>71-85 : Memuaskan (B)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <=70 : Cukup Memuaskan (C)</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
-                <div class="d-flex flex-column align-items-center">
-                    <p class="from">Jakarta, 10 November 2022</p>
-                    <p class="who">Pembimbing</p>
-                    <p class="role">Andrian</p>
+                <div class="col">
+                    <div class="d-flex flex-column align-items-center">
+                        <p class="place-1">Jakarta, 10 November 2022</p>
+                        <p class="role-1">Pembimbing</p>
+                        <p class="who-1">Andrian</p>
+                    </div>
                 </div>
-                <div class="d-flex flex-column align-items-center code">
-                    <p>Sertifikat ini dapat diverifikasi pada QR Code berikut</p>
-                    <img src="/assets/images/qr-code.png" alt="qr-code">
+                <div class="col align-self-center">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <p class="qr-code-text-1 me-3">Sertifikat ini dapat diverifikasi pada QR Code berikut</p>
+                        <img src="/assets/images/qr-code.png" alt="qr-code" class="qr-code">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</div>
-                
+        </section>
+    </div>
+
 @endsection

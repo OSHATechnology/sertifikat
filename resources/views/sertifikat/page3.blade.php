@@ -2,22 +2,50 @@
 @section('title','Sertifikat Magenta BUMN Page 1')
 @section('content')
 
+
 <div class="container">
-    <section class="logo-container">
-        <div class="d-flex gap-5 justify-content-center">
-            <h3 class="judul">Daftar Nilai Magang Generasi Bertalenta</h3>
-            <div><img src="assets/images/magenta1.png" alt="magenta1" class="logo"></div>
-            <div><img src="assets/images/magenta2.png" alt="magenta2" class="logo"></div>
-            <div><img src="assets/images/magenta3.png" alt="magenta3" class="logo"></div>
-            <div><img src="assets/images/magenta4.png" alt="magenta4" class="logo"></div>
-            <div><img src="assets/images/magenta5.png" alt="magenta5" class="logo"></div>
+    <section class="header-container">
+        <div class="header">
+            <h3 class="title">Daftar Nilai Magang Generasi Bertalenta</h3>
+            <div class="logo-container">
+                <img src="assets/images/magenta1.png" alt="magenta1" class="logo">
+                <img src="assets/images/magenta2.png" alt="magenta2" class="logo">
+                <img src="assets/images/magenta3.png" alt="magenta3" class="logo">
+                <img src="assets/images/magenta4.png" alt="magenta4" class="logo">
+                <img src="assets/images/magenta5.png" alt="magenta5" class="logo">
+            </div>
         </div>
-        <div class="d-flex gap-5 justify-content-left">
-            <h3 class="judul">PT Telkom Indonesia (Persero) Tbk</h3>
-        </div>
+        <h3 class="company">PT Telkom Indonesia (Persero) Tbk</h3>
     </section>
-    <section class="profile mt-3 mb-5">
-        <div class="d-flex flex-column align-items-left">
+    <section class="profile">
+        <div class="profile-name">
+            <div class="name">
+                <h5 class="question">Nama Mahasiswa
+                    <h5 class="colon">:</h5>
+                    <h5 class="answername">Bagus Adi Gautama</h5>
+                </h5>
+                <h5 class="question">NIM
+                    <h5 class="colon">:</h5>
+                    <h5 class="answernim">1234567890</h5>
+                </h5>
+            </div>
+            <div class="nim">
+                <h5 class="question">Fakultas/Jurusan
+                    <h5 class="colon">:</h5>
+                    <h5 class="answer">Informatika/S1 Informatika</h5>
+                </h5>
+                <h5 class="question">Perguruan Tinggi
+                    <h5 class="colon">:</h5>
+                    <h5 class="answer">Universitas Telkom</h5>
+                </h5>
+                <h5 class="question">Posisi Magang
+                    <h5 class="colon">:</h5>
+                    <h5 class="answer">UI Designer</h5>
+                </h5>
+            </div>
+        </div>
+        <div class="profile-univ"></div>
+        {{-- <div class="d-flex flex-column align-items-left">
             <table>
                 <tr>
                     <td>Nama Mahasiswa    : Bagus Adi Gautama</td>
@@ -32,9 +60,9 @@
                     <td>Posisi Magang     : UI Designer</td>
                 </tr>
             </table>
-        </div>
+        </div> --}}
     </section>
-    <section class="content-container">
+    {{-- <section class="content-container">
         <div class="d-flex flex-column align-items-center">
             <table>
                 <tr>
@@ -130,7 +158,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 </div>
                 
 @endsection

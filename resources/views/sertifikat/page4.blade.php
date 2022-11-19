@@ -1,8 +1,8 @@
 @extends('layouts.index')
-@section('title', 'Sertifikat Magenta BUMN Page 1')
+@section('title', 'Sertifikat Magenta BUMN Page 4')
 @section('content')
 
-    <div class="container1">
+    <div class="container">
         <section class="logo-container">
             <div class="d-flex justify-content-center align-items-center">
                 <div><img src="assets/images/magenta1.png" alt="logo" class="logo" /></div>
@@ -28,20 +28,15 @@
                     <b>UI Designer</b>, mulai dari tanggal 21 Oktober 2022 sampai tanggal 21 Januari 2023 dengan hasil
                     <b>A</b>
                 </p>
-                <p class="content-end mt-4">Jakarta, 10 November 2022</p>
+                <p class="content-end mt-3 mb-3">Jakarta, 10 November 2022</p>
             </div>
         </section>
         <section class="footer-container">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-center">
                 <div class="d-flex flex-column align-items-center">
                     <p class="from">Kementrian BUMN</p>
                     <p class="who">Erick Thohir</p>
                     <p class="role">Menteri BUMN</p>
-                </div>
-                <div class="d-flex flex-column align-items-center">
-                    <p class="from">FHCI</p>
-                    <p class="who">Alexandra Askandar</p>
-                    <p class="role">Ketua Umum</p>
                 </div>
             </div>
         </section>

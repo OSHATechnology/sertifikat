@@ -1,5 +1,5 @@
 @extends('layouts.index')
-@section('title','Sertifikat Magenta BUMN Page 1')
+@section('title', 'Sertifikat Magenta BUMN Page 1')
 @section('content')
 
 

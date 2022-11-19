@@ -45,7 +45,7 @@
             </div>
         </div>
         <div class="profile-univ"></div>
-        {{-- <div class="d-flex flex-column align-items-left">
+        <div class="d-flex flex-column align-items-left">
             <table>
                 <tr>
                     <td>Nama Mahasiswa    : Bagus Adi Gautama</td>
@@ -60,9 +60,9 @@
                     <td>Posisi Magang     : UI Designer</td>
                 </tr>
             </table>
-        </div> --}}
+        </div>
     </section>
-    {{-- <section class="content-container">
+    <section class="content-container">
         <div class="d-flex flex-column align-items-center">
             <table>
                 <tr>
@@ -158,7 +158,7 @@
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 </div>
                 
 @endsection

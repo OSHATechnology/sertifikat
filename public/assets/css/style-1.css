@@ -120,7 +120,7 @@ body{
     font-size: 11px;
 }
 
-.code .qr-code-text-1 {
+.qr-code-text-1 {
     text-align: center;
     max-width: 110px;
     line-height: 1.3;
@@ -128,6 +128,57 @@ body{
     font-size: 11px;
 }
 
-.code .qr-code {
+.qr-code {
     width: 110px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header-title {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    background: linear-gradient(168.18deg, #182958 -39.73%, #0093AD 135.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.header .header-logo {
+    width: 70px;
+    margin: 0 10px;
+}
+
+.header .logo-container {
+    justify-content: end !important;
+}
+
+.profile .profile-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.table-centered {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content-summary {
+    font-weight: 600;
+}
+
+.place-1 {
+    margin-bottom: 0;
+}
+
+.role-1 {
+    margin-bottom: 55px;
+}
+
+.who-1 {
+    margin-bottom: 0;
 }

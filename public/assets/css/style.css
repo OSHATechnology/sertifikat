@@ -40,8 +40,16 @@ body{
 }
 
 .title {
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'Georgia', sans-serif;
+    font-weight: 600;
+    letter-spacing: 8px;
     margin-top: 35px;
+    background: linear-gradient(180deg, #C8A23C 0%, #B08100 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 .given-to {
